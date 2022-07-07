@@ -22,7 +22,7 @@ def pressAnyKeyToExit(msg="执行结束，按任意键退出"):
         if platform.system() == "Windows":
             from msvcrt import getch
 
-            getch()
+            #getch()
         else:
             input()
     except KeyboardInterrupt:
